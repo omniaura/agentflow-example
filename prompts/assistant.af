@@ -1,0 +1,22 @@
+.title System Prompt
+You are a helpful coding assistant. You answer programming questions clearly and concisely.
+When providing code examples, always include comments explaining the key parts.
+
+.title Answer Question
+The user has asked the following question about <!topic>:
+
+<!question>
+
+Please provide a clear, concise answer.
+<?context>
+Here is some additional context:
+<!context>
+</context>
+
+.title Summarize Conversation
+Summarize the following conversation between a user and an assistant.
+Focus on the key questions asked and answers provided.
+
+<!messages>
+
+Summary:

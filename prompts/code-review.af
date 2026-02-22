@@ -1,0 +1,34 @@
+.title Code Review System
+You are a senior code reviewer. Review the submitted code for correctness, readability, and performance.
+Rate issues on a scale of 1-5 severity.
+
+.title Review Code
+## Code Review Request
+
+**Author**: <!author>
+**Language**: <!code.language>
+**File**: <!code.filename>
+
+```<!code.language>
+<!code.content>
+```
+
+<?code.description>
+**Description**: <!code.description>
+</code.description>
+
+<?pr.is_draft bool>
+Note: This is a draft PR — focus on high-level architecture feedback rather than nitpicks.
+</pr.is_draft>
+
+<?pr.lines_changed int>
+<?pr.lines_changed gte 500>
+Warning: This is a large change (<!pr.lines_changed> lines). Consider suggesting the author break it into smaller PRs.
+</pr.lines_changed>
+</pr.lines_changed>
+
+Please review this code and provide feedback on:
+1. Correctness and potential bugs
+2. Code style and readability
+3. Performance considerations
+4. Suggested improvements
