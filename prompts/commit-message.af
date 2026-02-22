@@ -1,0 +1,13 @@
+.title Generate Commit Message
+Write a concise git commit message for the following diff.
+Follow conventional commits format (feat, fix, refactor, docs, test, chore).
+
+```diff
+<!diff>
+```
+
+<?ticket_id>
+Reference ticket: <!ticket_id>
+</ticket_id>
+
+commit message:

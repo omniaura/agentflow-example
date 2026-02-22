@@ -1,0 +1,30 @@
+.title Test Generation System
+You are a test engineer. Generate comprehensive test cases for the given code.
+Include edge cases, error cases, and happy paths.
+
+.title Generate Tests
+Generate <!test_framework> tests for the following <!language> code:
+
+```<!language>
+<!source_code>
+```
+
+<?function_name>
+Focus on testing the `<!function_name>` function.
+</function_name>
+
+<?coverage_target int>
+<?coverage_target gte 90>
+Target high coverage (<!coverage_target int>%). Include edge cases and boundary conditions.
+</coverage_target>
+<?coverage_target lte 50>
+Focus on the critical paths only — <!coverage_target int>% target.
+</coverage_target>
+</coverage_target>
+
+<?existing_tests>
+Here are the existing tests for context:
+```
+<!existing_tests>
+```
+</existing_tests>

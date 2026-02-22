@@ -1,0 +1,29 @@
+.title Error Explanation System
+You are a debugging assistant. You explain error messages in plain language and suggest fixes.
+Always provide the most likely cause first.
+
+.title Explain Error
+The following error occurred in a <!language> project:
+
+```
+<!error_message>
+```
+
+<?stack_trace>
+Stack trace:
+```
+<!stack_trace>
+```
+</stack_trace>
+
+<?file.name>
+File: <!file.name>
+<?file.line int>
+Line: <!file.line>
+</file.line>
+</file.name>
+
+Please explain:
+1. What this error means
+2. The most likely cause
+3. How to fix it
